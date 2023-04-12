@@ -1,0 +1,179 @@
+body {
+    background-image: url(images/weatherBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 30px;
+    border: 3px double red;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin: 30px;
+}
+button {
+    background-color: antiquewhite;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid antiquewhite;
+    cursor: pointer;
+    border-radius: 10px;
+    animation: pulsate 2s infinite alternate;
+}
+@keyframes pulsate {
+    100% {
+        box-shadow: 0 0 3px antiquewhite;
+        background-color: antiquewhite;
+    }
+    0% {
+        box-shadow: 0 0 3px darkolivegreen;
+        background-color: darkolivegreen;
+    }
+}
+
+.transilvania {
+    border: 5px solid green;
+    border-radius: 10px;
+    color: blue;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.transilvania:hover {
+    background-color: green;
+}
+
+.oras {
+    color: red;
+    padding: 10px;
+}
+
+.banat {
+    border: 5px solid black;
+    border-radius: 10px;
+    color: green;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.banat:hover {
+    background-color: black;
+}
+
+.crisana {
+    border: 5px solid blue;
+    border-radius: 10px;
+    color: black;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.crisana:hover {
+    background-color: blue;
+}
+
+.maramures {
+    border: 5px solid pink;
+    border-radius: 10px;
+    color: blueviolet;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.maramures:hover {
+    background-color: pink;
+}
+
+.bucovina {
+    border: 5px solid orange;
+    border-radius: 10px;
+    color: brown;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.bucovina:hover {
+    background-color: orange;
+}
+
+.moldova {
+    border: 5px solid yellow;
+    border-radius: 10px;
+    color: royalblue;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.moldova:hover {
+    background-color: yellow;
+}
+
+.oltenia {
+    border: 5px solid lightseagreen;
+    border-radius: 10px;
+    color: purple;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.oltenia:hover {
+    background-color: lightseagreen;
+}
+
+.muntenia {
+    border: 5px solid turquoise;
+    border-radius: 10px;
+    color: grey;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.muntenia:hover {
+    background-color: turquoise;
+}
+.dobrogea {
+    border: 5px solid orchid;
+    border-radius: 10px;
+    color:navy;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+.dobrogea:hover {
+    background-color: orchid;
+}
+
+.capitala {
+    border: 5px solid rosybrown;
+    border-radius: 10px;
+    color: black;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.capitala:hover {
+    background-color: rosybrown;
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+}
